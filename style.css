@@ -83,6 +83,6 @@ table {
 
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   .calculator {
-    width: 80%;
+    width: 75%;
   }
 }
