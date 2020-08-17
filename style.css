@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: rgba(211, 211, 211, 0.384);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5em;
+}
+
+#display {
+  text-align: right;
+  color: white;
+  border-radius: 5px;
+  height: 2em;
+  padding-right: 0.3em;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  box-shadow: 0 4px 4px 0 darkgray inset, 0 2px 2px 0 darkgray inset;
+}
+
+#spacer {
+  padding: 0.1em;
+}
+
+button {
+  padding: 0.5em 0.8em;
+  margin: 0.15em;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 1.4em;
+}
+
+#display,
+button {
+  border: 2px solid white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+button,
+table {
+  box-shadow: 0 4px 4px 0 darkgray, 0 4px 4px 0 darkgray;
+}
+
+button:active {
+  background-color: white;
+  opacity: 20%;
+}
+
+table {
+  border: 2px solid darkgray;
+  padding: 2em;
+  background: rgb(174,124,204);
+  background: linear-gradient(0deg, rgba(174,124,204,0.5382352770209646) 0%, rgba(79,212,132,0.7007002630153624) 100%);
+}
+
+.operator,
+#equal,
+#clear {
+  background-color: rgba(240, 240, 240, 0.3);
+}
+
+#decimal {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#one,
+#subtract {
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+}
+
+
