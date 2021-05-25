@@ -1,2 +1,3 @@
 # a calculator
-### that's mobile responsive.
+### that's browser-based & mobile responsive.
+
